@@ -22,7 +22,7 @@ This is a simple Python project that analyzes DNA sequences and detects mutation
 2. Run te analysis script from the project root:
 
 bash
-python scripts/run_analysis.py
+python -m scripts/run_analysis.py
 
 ## Purpose
 
