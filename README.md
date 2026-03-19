@@ -17,12 +17,37 @@ This is a simple Python project that analyzes DNA sequences and detects mutation
 - tests/            unit tests
 
 ## Usage
-1. Place your FASTA files in the data/ folder
+> Requires Python 3.10+ to run
 
-2. Run te analysis script from the project root:
+1. Place your FASTA files in the data/ folder or, use the existing example files.
+(To detect mutations, you should modify either the sample sequence or the reference sequence.)
 
-bash
-python -m scripts/run_analysis.py
+2. Run the analysis script from the project root:
+
+### Windows
+```bash
+$env:PYTHONPATH="src"
+python -m scripts.run_analysis
+```
+### Linux / macOS
+```bash
+export PYTHONPATH=src
+python -m scripts.run_analysis
+```
+
+## Run Unittest
+In project root:
+
+### Windows
+```bash
+$env:PYTHONPATH="src"
+python -m unittest discover -s tests -p "*.py"
+```
+### Linux / macOS
+```bash
+export PYTHONPATH=src
+python -m unittest discover -s tests -p "*.py"
+```
 
 ## Purpose
 

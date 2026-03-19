@@ -2,12 +2,13 @@ import unittest
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from dna_analysis.parser import parse_fasta
-from dna_analysis.validator import validate_sequence
-from dna_analysis.mutations import find_mutations, calculate_mutation_rate
-from dna_analysis.analysis import analyze_sequence
+from dna_analysis import (
+    parse_fasta,
+    validate_sequence,
+    analyze_sequence,
+    find_mutations,
+    calculate_mutation_rate,
+)
 
 
 class TestDNAAnalysis(unittest.TestCase):
