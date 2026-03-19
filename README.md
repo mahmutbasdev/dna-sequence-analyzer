@@ -11,10 +11,10 @@ This is a simple Python project that analyzes DNA sequences and detects mutation
 - Mutation rate calculation
 
 ## Project Structure
-- data/            # FASTA files
-- dna_analysis/    # core functions: parser, validator, analysis, mutations
-- scripts/         # run_analysis.py: main script to run analysis
-- tests/           # unit tests
+- data/             FASTA files
+- dna_analysis/     core functions: parser, validator, analysis, mutations
+- scripts/          run_analysis.py: main script to run analysis
+- tests/            unit tests
 
 ## Usage
 1. Place your FASTA files in the data/ folder
