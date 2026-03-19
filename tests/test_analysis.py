@@ -1,4 +1,9 @@
 import unittest
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from dna_analysis.parser import parse_fasta
 from dna_analysis.validator import validate_sequence
 from dna_analysis.mutations import find_mutations, calculate_mutation_rate
