@@ -1,10 +1,8 @@
-from dna_analysis import (
-    parse_fasta,
-    validate_sequence,
-    analyze_sequence,
-    find_mutations,
-    calculate_mutation_rate,
-)
+from dna_analysis.parser import parse_fasta
+from dna_analysis.validator import validate_sequence
+from dna_analysis.analysis import analyze_sequence
+from dna_analysis.mutations import find_mutations, calculate_mutation_rate
+
 
 def main():
     # FASTA files
