@@ -1,6 +1,6 @@
 # DNA Mutation Analysis (Python)
 
-This is a simple Python project that analyzes DNA sequences and detects mutations between a reference sequence and a sample sequence.
+This is a Python project that analyzes DNA sequences and detects mutations between a reference sequence and a sample sequence.
 
 ## Features
 
