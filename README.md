@@ -1,4 +1,4 @@
-# DNA Mutation Analysis (Python)
+# DNA Mutation Analysis
 
 This is a Python project that analyzes DNA sequences and detects mutations between a reference sequence and a sample sequence.
 
